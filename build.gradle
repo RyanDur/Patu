@@ -23,5 +23,4 @@ task cucumber(dependsOn: assemble, type: JavaExec) {
     main = "cucumber.cli.Main"
     classpath = configurations.cucumberRuntime
     args = ["-f", "pretty", "--glue", "src/test/java", "src/test/resources"]
-
 }

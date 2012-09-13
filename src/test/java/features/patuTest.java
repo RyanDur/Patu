@@ -24,5 +24,4 @@ public class patuTest {
         // Express the Regexp above with the code you wish you had
         throw new PendingException();
     }
-
 }
